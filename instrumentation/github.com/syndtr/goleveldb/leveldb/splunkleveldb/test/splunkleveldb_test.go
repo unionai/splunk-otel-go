@@ -33,7 +33,7 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 	traceapi "go.opentelemetry.io/otel/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/syndtr/goleveldb/leveldb/splunkleveldb"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/syndtr/goleveldb/leveldb/splunkleveldb"
 )
 
 var expectedValue = []byte("world")

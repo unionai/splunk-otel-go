@@ -20,7 +20,7 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/julienschmidt/httprouter/splunkhttprouter"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/julienschmidt/httprouter/splunkhttprouter"
 )
 
 func Index(w http.ResponseWriter, _ *http.Request, _ httprouter.Params) {

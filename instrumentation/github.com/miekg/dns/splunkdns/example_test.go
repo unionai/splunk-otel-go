@@ -20,7 +20,7 @@ import (
 
 	"github.com/miekg/dns"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/miekg/dns/splunkdns"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/miekg/dns/splunkdns"
 )
 
 func Example_client() {

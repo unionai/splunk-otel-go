@@ -21,11 +21,11 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/internal"
+	"github.com/unionai/splunk-otel-go/instrumentation/internal"
 )
 
 // instrumentationName is the instrumentation library identifier for a Tracer.
-const instrumentationName = "github.com/signalfx/splunk-otel-go/instrumentation/github.com/syndtr/goleveldb/leveldb/splunkleveldb"
+const instrumentationName = "github.com/unionai/splunk-otel-go/instrumentation/github.com/syndtr/goleveldb/leveldb/splunkleveldb"
 
 // config contains tracing configuration options.
 type config struct {

@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
-	_ "github.com/signalfx/splunk-otel-go/instrumentation/github.com/go-sql-driver/mysql/splunkmysql"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
+	_ "github.com/unionai/splunk-otel-go/instrumentation/github.com/go-sql-driver/mysql/splunkmysql"
 )
 
 type server struct {

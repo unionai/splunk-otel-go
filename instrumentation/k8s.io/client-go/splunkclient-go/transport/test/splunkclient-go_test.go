@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:build !(go1.1 || go1.2 || go1.3 || go1.4 || go1.5 || go1.6 || go1.7 || go1.8 || go1.9 || go1.10 || go1.11 || go1.12 || go1.13 || go1.14 || go1.15 || go1.16)
-// +build !go1.1,!go1.2,!go1.3,!go1.4,!go1.5,!go1.6,!go1.7,!go1.8,!go1.9,!go1.10,!go1.11,!go1.12,!go1.13,!go1.14,!go1.15,!go1.16
+//go:build go1.17
+// +build go1.17
 
 package test
 
@@ -34,9 +34,9 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 	"go.opentelemetry.io/otel/trace"
 
-	splunkclientgo "github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go"
-	"github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/option"
-	"github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/transport"
+	splunkclientgo "github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go"
+	"github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/option"
+	"github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/transport"
 )
 
 func request(t *testing.T, handle func(http.ResponseWriter, *http.Request)) (*tracetest.SpanRecorder, *http.Response, string) {

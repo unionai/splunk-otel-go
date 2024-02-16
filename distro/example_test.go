@@ -17,7 +17,7 @@ package distro_test
 import (
 	"context"
 
-	"github.com/signalfx/splunk-otel-go/distro"
+	"github.com/unionai/splunk-otel-go/distro"
 )
 
 func Example() {

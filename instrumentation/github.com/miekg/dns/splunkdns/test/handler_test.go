@@ -28,7 +28,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	traceapi "go.opentelemetry.io/otel/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/miekg/dns/splunkdns"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/miekg/dns/splunkdns"
 )
 
 var defaultServerAttrs = []attribute.KeyValue{

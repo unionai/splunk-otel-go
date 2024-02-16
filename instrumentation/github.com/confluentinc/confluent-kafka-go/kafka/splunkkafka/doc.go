@@ -14,4 +14,4 @@
 
 // Package splunkkafka provides functions to trace the
 // github.com/confluentinc/confluent-kafka-go/kafka package.
-package splunkkafka // import "github.com/signalfx/splunk-otel-go/instrumentation/github.com/confluentinc/confluent-kafka-go/kafka/splunkkafka"
+package splunkkafka // import "github.com/unionai/splunk-otel-go/instrumentation/github.com/confluentinc/confluent-kafka-go/kafka/splunkkafka"

@@ -19,8 +19,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/lib/pq/splunkpq"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/lib/pq/splunkpq"
 )
 
 func TestDSNParser(t *testing.T) {

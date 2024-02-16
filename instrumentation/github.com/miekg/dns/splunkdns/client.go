@@ -21,7 +21,7 @@ import (
 	"github.com/miekg/dns"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/internal"
+	"github.com/unionai/splunk-otel-go/instrumentation/internal"
 )
 
 // A Client wraps a DNS Client so that requests are traced.

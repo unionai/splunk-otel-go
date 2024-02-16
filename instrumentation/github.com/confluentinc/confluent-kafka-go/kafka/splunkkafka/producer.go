@@ -29,7 +29,7 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/internal"
+	"github.com/unionai/splunk-otel-go/instrumentation/internal"
 )
 
 // A Producer wraps a kafka.Producer and traces its operations.

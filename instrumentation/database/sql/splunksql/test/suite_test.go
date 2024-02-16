@@ -27,8 +27,8 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 	traceapi "go.opentelemetry.io/otel/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql/internal/moniker"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql/internal/moniker"
 )
 
 // SplunkSQLSuite is the tracing test suite for the splunksql package.

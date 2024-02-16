@@ -31,8 +31,8 @@
 // Update to this.
 //
 //	import (
-//		_ "github.com/signalfx/splunk-otel-go/instrumentation/github.com/lib/pq/splunkpq"
-//		"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
+//		_ "github.com/unionai/splunk-otel-go/instrumentation/github.com/lib/pq/splunkpq"
+//		"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
 //	)
 //	// ...
 //	db, err := splunksql.Open("postgres", "postgres://localhost:5432/dbname")
@@ -49,8 +49,8 @@ import (
 	// Make sure to import this so the instrumented driver is registered.
 	_ "github.com/lib/pq"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/lib/pq/splunkpq/internal"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/lib/pq/splunkpq/internal"
 )
 
 func init() { //nolint: gochecknoinits // register db driver

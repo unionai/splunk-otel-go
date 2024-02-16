@@ -23,7 +23,7 @@ import (
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	"go.opentelemetry.io/otel/sdk/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/net/http/splunkhttp"
+	"github.com/unionai/splunk-otel-go/instrumentation/net/http/splunkhttp"
 )
 
 //nolint:errcheck,noctx // example usage

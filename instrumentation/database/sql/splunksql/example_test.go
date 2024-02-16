@@ -21,7 +21,7 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
 )
 
 const (

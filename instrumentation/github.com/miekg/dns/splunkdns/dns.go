@@ -22,7 +22,7 @@ import (
 	"github.com/miekg/dns"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/internal"
+	"github.com/unionai/splunk-otel-go/instrumentation/internal"
 )
 
 // ListenAndServe wraps the passed handler so all requests it servers are

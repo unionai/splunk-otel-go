@@ -18,7 +18,7 @@ import (
 	"context"
 	"database/sql/driver"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql/internal/moniker"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql/internal/moniker"
 )
 
 // otelTx is a traced version of sql.Tx

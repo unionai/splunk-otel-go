@@ -19,7 +19,7 @@ import (
 
 	"github.com/go-chi/chi"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/go-chi/chi/splunkchi"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/go-chi/chi/splunkchi"
 )
 
 func Example() {

@@ -14,12 +14,12 @@
 
 // Package splunksqlx provides instrumentation for the [github.com/jmoiron/sqlx]
 // package.
-package splunksqlx // import "github.com/signalfx/splunk-otel-go/instrumentation/github.com/jmoiron/sqlx/splunksqlx"
+package splunksqlx // import "github.com/unionai/splunk-otel-go/instrumentation/github.com/jmoiron/sqlx/splunksqlx"
 
 import (
 	"github.com/jmoiron/sqlx"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
 )
 
 // openFunc allows overrides for testing.

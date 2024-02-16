@@ -1,9 +1,9 @@
-module github.com/signalfx/splunk-otel-go/instrumentation/github.com/syndtr/goleveldb/leveldb/splunkleveldb
+module github.com/unionai/splunk-otel-go/instrumentation/github.com/syndtr/goleveldb/leveldb/splunkleveldb
 
 go 1.20
 
 require (
-	github.com/signalfx/splunk-otel-go/instrumentation/internal v1.13.0
+	github.com/unionai/splunk-otel-go/instrumentation/internal v1.13.0
 	github.com/stretchr/testify v1.8.4
 	github.com/syndtr/goleveldb v1.0.0
 	go.opentelemetry.io/otel v1.23.1
@@ -21,4 +21,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/signalfx/splunk-otel-go/instrumentation/internal => ../../../../../internal
+replace github.com/unionai/splunk-otel-go/instrumentation/internal => ../../../../../internal

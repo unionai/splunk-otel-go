@@ -1,4 +1,4 @@
-module github.com/signalfx/splunk-otel-go/instrumentation/github.com/julienschmidt/httprouter/splunkhttprouter
+module github.com/unionai/splunk-otel-go/instrumentation/github.com/julienschmidt/httprouter/splunkhttprouter
 
 go 1.20
 

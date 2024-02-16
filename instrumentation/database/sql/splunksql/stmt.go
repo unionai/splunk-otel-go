@@ -21,7 +21,7 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql/internal/moniker"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql/internal/moniker"
 )
 
 // otelStmt is traced sql.Stmt.

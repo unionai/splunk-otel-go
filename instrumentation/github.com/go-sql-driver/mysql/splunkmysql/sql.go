@@ -31,8 +31,8 @@
 // Update to this.
 //
 //	import (
-//		_ "github.com/signalfx/splunk-otel-go/instrumentation/github.com/go-sql-driver/mysql/splunkmysql"
-//		"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
+//		_ "github.com/unionai/splunk-otel-go/instrumentation/github.com/go-sql-driver/mysql/splunkmysql"
+//		"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
 //	)
 //	// ...
 //	db, err := splunksql.Open("mysql", "user:password@/dbname")
@@ -46,7 +46,7 @@ import (
 	// Make sure to import this so the instrumented driver is registered.
 	"github.com/go-sql-driver/mysql"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
 )
 
 func init() { //nolint: gochecknoinits // register db driver

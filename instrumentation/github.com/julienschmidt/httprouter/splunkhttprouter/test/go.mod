@@ -1,10 +1,10 @@
-module github.com/signalfx/splunk-otel-go/instrumentation/github.com/julienschmidt/httprouter/splunkhttprouter/test
+module github.com/unionai/splunk-otel-go/instrumentation/github.com/julienschmidt/httprouter/splunkhttprouter/test
 
 go 1.20
 
 require (
 	github.com/julienschmidt/httprouter v1.3.0
-	github.com/signalfx/splunk-otel-go/instrumentation/github.com/julienschmidt/httprouter/splunkhttprouter v1.13.0
+	github.com/unionai/splunk-otel-go/instrumentation/github.com/julienschmidt/httprouter/splunkhttprouter v1.13.0
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.48.0
 	go.opentelemetry.io/otel v1.23.1
@@ -23,4 +23,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/signalfx/splunk-otel-go/instrumentation/github.com/julienschmidt/httprouter/splunkhttprouter => ../
+replace github.com/unionai/splunk-otel-go/instrumentation/github.com/julienschmidt/httprouter/splunkhttprouter => ../

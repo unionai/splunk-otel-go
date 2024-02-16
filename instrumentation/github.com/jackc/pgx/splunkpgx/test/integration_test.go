@@ -35,8 +35,8 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
-	_ "github.com/signalfx/splunk-otel-go/instrumentation/github.com/jackc/pgx/splunkpgx"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
+	_ "github.com/unionai/splunk-otel-go/instrumentation/github.com/jackc/pgx/splunkpgx"
 )
 
 const (

@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:build !(go1.1 || go1.2 || go1.3 || go1.4 || go1.5 || go1.6 || go1.7 || go1.8 || go1.9 || go1.10 || go1.11 || go1.12 || go1.13 || go1.14 || go1.15 || go1.16)
-// +build !go1.1,!go1.2,!go1.3,!go1.4,!go1.5,!go1.6,!go1.7,!go1.8,!go1.9,!go1.10,!go1.11,!go1.12,!go1.13,!go1.14,!go1.15,!go1.16
+//go:build go1.17
+// +build go1.17
 
 package transport
 
@@ -29,13 +29,13 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"k8s.io/client-go/transport"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/internal"
-	splunkclientgo "github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go"
-	"github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/option"
+	"github.com/unionai/splunk-otel-go/instrumentation/internal"
+	splunkclientgo "github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go"
+	"github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/option"
 )
 
 // instrumentationName is the instrumentation library identifier for a Tracer.
-const instrumentationName = "github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go"
+const instrumentationName = "github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go"
 
 // NewWrapperFunc returns a Kubernetes WrapperFunc that can be used with a
 // client configuration to trace all communication the client makes.
@@ -113,7 +113,7 @@ func (rt *roundTripper) RoundTrip(r *http.Request) (resp *http.Response, err err
 }
 
 const (
-	prefixAPI   = "/api/v1/"
+	prefixAPI   = "/apis/"
 	prefixWatch = "watch/"
 )
 

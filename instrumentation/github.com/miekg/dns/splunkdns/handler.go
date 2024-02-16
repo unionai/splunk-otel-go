@@ -21,7 +21,7 @@ import (
 	"github.com/miekg/dns"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/internal"
+	"github.com/unionai/splunk-otel-go/instrumentation/internal"
 )
 
 // A Handler wraps a DNS Handler so that requests are traced.

@@ -1,10 +1,10 @@
-module github.com/signalfx/splunk-otel-go/example
+module github.com/unionai/splunk-otel-go/example
 
 go 1.20
 
 require (
-	github.com/signalfx/splunk-otel-go/distro v1.13.0
-	github.com/signalfx/splunk-otel-go/instrumentation/net/http/splunkhttp v1.13.0
+	github.com/unionai/splunk-otel-go/distro v1.13.0
+	github.com/unionai/splunk-otel-go/instrumentation/net/http/splunkhttp v1.13.0
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.48.0
 	golang.org/x/sync v0.6.0
 )
@@ -46,6 +46,6 @@ require (
 	google.golang.org/protobuf v1.32.0 // indirect
 )
 
-replace github.com/signalfx/splunk-otel-go/distro => ../distro
+replace github.com/unionai/splunk-otel-go/distro => ../distro
 
-replace github.com/signalfx/splunk-otel-go/instrumentation/net/http/splunkhttp => ../instrumentation/net/http/splunkhttp
+replace github.com/unionai/splunk-otel-go/instrumentation/net/http/splunkhttp => ../instrumentation/net/http/splunkhttp

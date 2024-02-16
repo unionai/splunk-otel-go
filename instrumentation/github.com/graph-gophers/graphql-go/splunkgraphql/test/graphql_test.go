@@ -38,8 +38,8 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	traceapi "go.opentelemetry.io/otel/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/graph-gophers/graphql-go/splunkgraphql"
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/graph-gophers/graphql-go/splunkgraphql/internal"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/graph-gophers/graphql-go/splunkgraphql"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/graph-gophers/graphql-go/splunkgraphql/internal"
 )
 
 const testSchema = `

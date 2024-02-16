@@ -1,4 +1,4 @@
-module github.com/signalfx/splunk-otel-go/build
+module github.com/unionai/splunk-otel-go/build
 
 go 1.21
 

@@ -44,7 +44,7 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/signalfx/splunk-otel-go/distro"
+	"github.com/unionai/splunk-otel-go/distro"
 )
 
 const (

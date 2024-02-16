@@ -1,10 +1,10 @@
-module github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go
+module github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go
 
 go 1.20
 
 require (
-	github.com/signalfx/splunk-otel-go/instrumentation/internal v1.13.0
 	github.com/stretchr/testify v1.8.4
+	github.com/unionai/splunk-otel-go/instrumentation/internal v1.13.0
 	go.opentelemetry.io/otel v1.23.1
 	go.opentelemetry.io/otel/trace v1.23.1
 	k8s.io/apimachinery v0.28.4
@@ -52,4 +52,4 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace github.com/signalfx/splunk-otel-go/instrumentation/internal => ../../../internal
+replace github.com/unionai/splunk-otel-go/instrumentation/internal => ../../../internal
