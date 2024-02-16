@@ -3,8 +3,8 @@ module github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunk
 go 1.20
 
 require (
-	github.com/unionai/splunk-otel-go/instrumentation/internal v1.13.0
 	github.com/stretchr/testify v1.8.4
+	github.com/unionai/splunk-otel-go/instrumentation/internal v1.13.0
 	go.opentelemetry.io/otel v1.23.1
 	go.opentelemetry.io/otel/trace v1.23.1
 	k8s.io/apimachinery v0.28.4
