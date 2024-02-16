@@ -113,7 +113,7 @@ func (rt *roundTripper) RoundTrip(r *http.Request) (resp *http.Response, err err
 }
 
 const (
-	prefixAPI   = "/api/v1/"
+	prefixAPI   = "/apis/"
 	prefixWatch = "watch/"
 )
 
