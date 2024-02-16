@@ -34,9 +34,9 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 	"go.opentelemetry.io/otel/trace"
 
-	splunkclientgo "github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go"
-	"github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/option"
-	"github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/transport"
+	splunkclientgo "github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go"
+	"github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/option"
+	"github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/transport"
 )
 
 func request(t *testing.T, handle func(http.ResponseWriter, *http.Request)) (*tracetest.SpanRecorder, *http.Response, string) {

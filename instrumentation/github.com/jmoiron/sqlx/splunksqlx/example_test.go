@@ -19,12 +19,12 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/jmoiron/sqlx/splunksqlx"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/jmoiron/sqlx/splunksqlx"
 )
 
 func ExampleOpen() {
 	// This assumes the instrumented driver,
-	// "github.com/signalfx/splunk-otel-go/instrumentation/github.com/jackc/pgx/splunkpgx",
+	// "github.com/unionai/splunk-otel-go/instrumentation/github.com/jackc/pgx/splunkpgx",
 	// is imported. That will ensure the driver and the instrumentation setup
 	// for the driver are registered with the appropriate packages.
 	db, err := splunksqlx.Open("pgx", "postgres://localhost/db")

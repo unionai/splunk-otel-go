@@ -14,12 +14,12 @@
 
 // Package splunkgorm provides instrumentation for the [github.com/jinzhu/gorm]
 // package.
-package splunkgorm // import "github.com/signalfx/splunk-otel-go/instrumentation/github.com/jinzhu/gorm/splunkgorm"
+package splunkgorm // import "github.com/unionai/splunk-otel-go/instrumentation/github.com/jinzhu/gorm/splunkgorm"
 
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
 )
 
 // openFunc allows overrides for testing.

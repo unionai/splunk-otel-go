@@ -1,9 +1,9 @@
-module github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/transport/test
+module github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/transport/test
 
 go 1.20
 
 require (
-	github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go v1.13.0
+	github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go v1.13.0
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/otel v1.23.1
 	go.opentelemetry.io/otel/sdk v1.23.1
@@ -16,7 +16,7 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/signalfx/splunk-otel-go/instrumentation/internal v1.13.0 // indirect
+	github.com/unionai/splunk-otel-go/instrumentation/internal v1.13.0 // indirect
 	go.opentelemetry.io/otel/metric v1.23.1 // indirect
 	golang.org/x/net v0.21.0 // indirect
 	golang.org/x/oauth2 v0.17.0 // indirect
@@ -33,6 +33,6 @@ require (
 )
 
 replace (
-	github.com/signalfx/splunk-otel-go/instrumentation/internal => ../../../../../internal
-	github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go => ../..
+	github.com/unionai/splunk-otel-go/instrumentation/internal => ../../../../../internal
+	github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go => ../..
 )

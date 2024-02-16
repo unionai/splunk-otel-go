@@ -29,7 +29,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/julienschmidt/httprouter/splunkhttprouter"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/julienschmidt/httprouter/splunkhttprouter"
 
 	"github.com/julienschmidt/httprouter"
 	"github.com/stretchr/testify/assert"

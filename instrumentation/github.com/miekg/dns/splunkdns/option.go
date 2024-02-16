@@ -20,11 +20,11 @@ import (
 
 	"github.com/miekg/dns"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/internal"
+	"github.com/unionai/splunk-otel-go/instrumentation/internal"
 )
 
 // instrumentationName is the instrumentation library identifier for a Tracer.
-const instrumentationName = "github.com/signalfx/splunk-otel-go/instrumentation/github.com/miekg/dns/splunkdns"
+const instrumentationName = "github.com/unionai/splunk-otel-go/instrumentation/github.com/miekg/dns/splunkdns"
 
 // Option applies options to a configuration.
 type Option interface {

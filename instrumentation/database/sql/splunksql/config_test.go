@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql/internal/moniker"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql/internal/moniker"
 )
 
 func TestURLDNSParse(t *testing.T) {

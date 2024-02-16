@@ -24,11 +24,11 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/internal"
+	"github.com/unionai/splunk-otel-go/instrumentation/internal"
 )
 
 // instrumentationName is the instrumentation library identifier for a Tracer.
-const instrumentationName = "github.com/signalfx/splunk-otel-go/instrumentation/github.com/confluentinc/confluent-kafka-go/v2/kafka/splunkkafka"
+const instrumentationName = "github.com/unionai/splunk-otel-go/instrumentation/github.com/confluentinc/confluent-kafka-go/v2/kafka/splunkkafka"
 
 func newConfig(options ...Option) *internal.Config {
 	o := append([]internal.Option{internal.OptionFunc(func(c *internal.Config) {

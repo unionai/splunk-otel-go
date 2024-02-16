@@ -1,10 +1,10 @@
-module github.com/signalfx/splunk-otel-go/instrumentation/github.com/jackc/pgx/v5/splunkpgx
+module github.com/unionai/splunk-otel-go/instrumentation/github.com/jackc/pgx/v5/splunkpgx
 
 go 1.20
 
 require (
 	github.com/jackc/pgx/v5 v5.5.3
-	github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql v1.13.0
+	github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql v1.13.0
 	github.com/stretchr/testify v1.8.4
 )
 
@@ -18,7 +18,7 @@ require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rogpeppe/go-internal v1.12.0 // indirect
-	github.com/signalfx/splunk-otel-go/instrumentation/internal v1.13.0 // indirect
+	github.com/unionai/splunk-otel-go/instrumentation/internal v1.13.0 // indirect
 	go.opentelemetry.io/otel v1.23.1 // indirect
 	go.opentelemetry.io/otel/metric v1.23.1 // indirect
 	go.opentelemetry.io/otel/trace v1.23.1 // indirect
@@ -29,6 +29,6 @@ require (
 )
 
 replace (
-	github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql => ../../../../../database/sql/splunksql
-	github.com/signalfx/splunk-otel-go/instrumentation/internal => ../../../../../internal
+	github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql => ../../../../../database/sql/splunksql
+	github.com/unionai/splunk-otel-go/instrumentation/internal => ../../../../../internal
 )

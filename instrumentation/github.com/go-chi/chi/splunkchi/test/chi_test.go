@@ -38,7 +38,7 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 	traceapi "go.opentelemetry.io/otel/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/go-chi/chi/splunkchi"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/go-chi/chi/splunkchi"
 )
 
 func newTestServer(tp *trace.TracerProvider) *chi.Mux {

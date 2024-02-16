@@ -25,7 +25,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/transport"
+	"github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/transport"
 )
 
 func Example() {

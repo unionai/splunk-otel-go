@@ -23,8 +23,8 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/gomodule/redigo/splunkredigo/option"
-	splunkredis "github.com/signalfx/splunk-otel-go/instrumentation/github.com/gomodule/redigo/splunkredigo/redis"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/gomodule/redigo/splunkredigo/option"
+	splunkredis "github.com/unionai/splunk-otel-go/instrumentation/github.com/gomodule/redigo/splunkredigo/redis"
 )
 
 func Example() {

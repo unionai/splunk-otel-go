@@ -26,11 +26,11 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	oteltrace "go.opentelemetry.io/otel/trace"
 
-	gql "github.com/signalfx/splunk-otel-go/instrumentation/github.com/graph-gophers/graphql-go/splunkgraphql/internal"
-	"github.com/signalfx/splunk-otel-go/instrumentation/internal"
+	gql "github.com/unionai/splunk-otel-go/instrumentation/github.com/graph-gophers/graphql-go/splunkgraphql/internal"
+	"github.com/unionai/splunk-otel-go/instrumentation/internal"
 )
 
-const instrumentationName = "github.com/signalfx/splunk-otel-go/instrumentation/github.com/graph-gophers/graphql-go/splunkgraphql"
+const instrumentationName = "github.com/unionai/splunk-otel-go/instrumentation/github.com/graph-gophers/graphql-go/splunkgraphql"
 
 // otelTracer implements the graphql-go/trace.Tracer interface using
 // OpenTelemetry.

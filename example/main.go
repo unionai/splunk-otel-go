@@ -34,8 +34,8 @@ import (
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/signalfx/splunk-otel-go/distro"
-	"github.com/signalfx/splunk-otel-go/instrumentation/net/http/splunkhttp"
+	"github.com/unionai/splunk-otel-go/distro"
+	"github.com/unionai/splunk-otel-go/instrumentation/net/http/splunkhttp"
 )
 
 const address = "localhost:8080"

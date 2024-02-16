@@ -19,12 +19,12 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/jinzhu/gorm/splunkgorm"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/jinzhu/gorm/splunkgorm"
 )
 
 func ExampleOpen() {
 	// This assumes the instrumented driver,
-	// "github.com/signalfx/splunk-otel-go/instrumentation/github.com/jackc/pgx/splunkpgx",
+	// "github.com/unionai/splunk-otel-go/instrumentation/github.com/jackc/pgx/splunkpgx",
 	// is imported. That will ensure the driver and the instrumentation setup
 	// for the driver are registered with the appropriate packages.
 	db, err := splunkgorm.Open("pgx", "postgres://localhost/db")

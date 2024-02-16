@@ -30,7 +30,7 @@ import (
 	"go.opentelemetry.io/otel/trace/noop"
 )
 
-const iName = "github.com/signalfx/splunk-otel-go/instrumentation/internal"
+const iName = "github.com/unionai/splunk-otel-go/instrumentation/internal"
 
 var mockTracerProvider = func(spanRecorder map[string]*mockSpan) trace.TracerProvider {
 	recordSpan := func(s *mockSpan) {

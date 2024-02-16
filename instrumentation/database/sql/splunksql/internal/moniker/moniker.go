@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Package moniker provides consistent identifiers for telemetry data.
-package moniker // import "github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql/internal/moniker"
+package moniker // import "github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql/internal/moniker"
 
 // Span is the name of an OpenTelemetry Span.
 type Span string

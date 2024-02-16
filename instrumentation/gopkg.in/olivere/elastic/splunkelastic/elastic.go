@@ -26,11 +26,11 @@ import (
 	"go.opentelemetry.io/otel/semconv/v1.17.0/httpconv"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/internal"
+	"github.com/unionai/splunk-otel-go/instrumentation/internal"
 )
 
 // instrumentationName is the instrumentation library identifier for a Tracer.
-const instrumentationName = "github.com/signalfx/splunk-otel-go/instrumentation/gopkg.in/olivere/elastic/splunkelastic"
+const instrumentationName = "github.com/unionai/splunk-otel-go/instrumentation/gopkg.in/olivere/elastic/splunkelastic"
 
 // WrapRoundTripper returns an http.RoundTripper that wraps the passed rt. All
 // requests handled by the returned http.RoundTripper will be traced with the

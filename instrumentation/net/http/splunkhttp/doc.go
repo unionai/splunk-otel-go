@@ -14,4 +14,4 @@
 
 // Package splunkhttp provides functions that add additional Splunk specific instrumentation
 // by wrapping existing handlers.
-package splunkhttp // import "github.com/signalfx/splunk-otel-go/instrumentation/net/http/splunkhttp"
+package splunkhttp // import "github.com/unionai/splunk-otel-go/instrumentation/net/http/splunkhttp"

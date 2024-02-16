@@ -21,7 +21,7 @@ package splunkkafka_test
 import (
 	"github.com/confluentinc/confluent-kafka-go/v2/kafka"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/confluentinc/confluent-kafka-go/v2/kafka/splunkkafka"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/confluentinc/confluent-kafka-go/v2/kafka/splunkkafka"
 )
 
 func ExampleNewConsumer() {

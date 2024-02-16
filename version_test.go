@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	splunkotel "github.com/signalfx/splunk-otel-go"
+	splunkotel "github.com/unionai/splunk-otel-go"
 )
 
 func TestVersionSemver(t *testing.T) {

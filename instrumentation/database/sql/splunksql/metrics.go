@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package splunksql // import "github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
+package splunksql // import "github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
 
 import (
 	"context"

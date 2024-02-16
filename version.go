@@ -16,7 +16,7 @@
 Package splunkotel provides version information for the Splunk distribution of
 OpenTelemetry Go.
 */
-package splunkotel // import "github.com/signalfx/splunk-otel-go"
+package splunkotel // import "github.com/unionai/splunk-otel-go"
 
 // Version is the current release version of splunk-otel-go in use.
 func Version() string {

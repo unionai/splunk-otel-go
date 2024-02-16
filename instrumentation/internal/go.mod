@@ -1,4 +1,4 @@
-module github.com/signalfx/splunk-otel-go/instrumentation/internal
+module github.com/unionai/splunk-otel-go/instrumentation/internal
 
 go 1.20
 

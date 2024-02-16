@@ -31,8 +31,8 @@
 // Update to this.
 //
 //	import (
-//		_ "github.com/signalfx/splunk-otel-go/instrumentation/github.com/jackc/pgx/splunkpgx"
-//		"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
+//		_ "github.com/unionai/splunk-otel-go/instrumentation/github.com/jackc/pgx/splunkpgx"
+//		"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
 //	)
 //	// ...
 //	db, err := splunksql.Open("pgx", "postgres://localhost:5432/dbname")
@@ -48,7 +48,7 @@ import (
 	// Make sure to import this so the instrumented driver is registered.
 	_ "github.com/jackc/pgx/v4/stdlib"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
 )
 
 func init() { //nolint: gochecknoinits // register db driver

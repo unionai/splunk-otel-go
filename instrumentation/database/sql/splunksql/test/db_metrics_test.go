@@ -28,7 +28,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/metric/metricdata/metricdatatest"
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
+	"github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
 )
 
 func TestMetrics(t *testing.T) { //nolint:funlen // the want is big
@@ -78,7 +78,7 @@ func TestMetrics(t *testing.T) { //nolint:funlen // the want is big
 			wantPoolAttr := attribute.String("pool.name", tc.wantPoolName)
 			want := metricdata.ScopeMetrics{
 				Scope: instrumentation.Scope{
-					Name:      "github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql",
+					Name:      "github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql",
 					Version:   splunksql.Version(),
 					SchemaURL: semconv.SchemaURL,
 				},

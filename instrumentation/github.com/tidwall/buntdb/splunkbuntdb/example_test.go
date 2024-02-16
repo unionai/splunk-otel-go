@@ -17,7 +17,7 @@ package splunkbuntdb_test
 import (
 	"fmt"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/github.com/tidwall/buntdb/splunkbuntdb"
+	"github.com/unionai/splunk-otel-go/instrumentation/github.com/tidwall/buntdb/splunkbuntdb"
 )
 
 func Example() {

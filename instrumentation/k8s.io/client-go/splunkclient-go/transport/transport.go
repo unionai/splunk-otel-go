@@ -29,13 +29,13 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"k8s.io/client-go/transport"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/internal"
-	splunkclientgo "github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go"
-	"github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/option"
+	"github.com/unionai/splunk-otel-go/instrumentation/internal"
+	splunkclientgo "github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go"
+	"github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go/option"
 )
 
 // instrumentationName is the instrumentation library identifier for a Tracer.
-const instrumentationName = "github.com/signalfx/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go"
+const instrumentationName = "github.com/unionai/splunk-otel-go/instrumentation/k8s.io/client-go/splunkclient-go"
 
 // NewWrapperFunc returns a Kubernetes WrapperFunc that can be used with a
 // client configuration to trace all communication the client makes.

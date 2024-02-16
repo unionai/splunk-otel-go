@@ -21,7 +21,7 @@ import (
 	elasticv7 "github.com/olivere/elastic/v7"
 	elasticv3 "gopkg.in/olivere/elastic.v3"
 
-	"github.com/signalfx/splunk-otel-go/instrumentation/gopkg.in/olivere/elastic/splunkelastic"
+	"github.com/unionai/splunk-otel-go/instrumentation/gopkg.in/olivere/elastic/splunkelastic"
 )
 
 func Example() {

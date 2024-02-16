@@ -25,7 +25,7 @@ import (
 
 const (
 	dirBuild          = "build"
-	repoPackagePrefix = "github.com/signalfx/splunk-otel-go"
+	repoPackagePrefix = "github.com/unionai/splunk-otel-go"
 )
 
 var flagSkipDocker = flag.Bool("skip-docker", false, "skip tasks and tests using Docker")

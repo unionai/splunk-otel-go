@@ -26,7 +26,7 @@
 //     The maximum number of open connections allowed
 //   - db.client.connections.wait_time (ms) -
 //     The time it took to obtain an open connection from the pool
-package splunksql // import "github.com/signalfx/splunk-otel-go/instrumentation/database/sql/splunksql"
+package splunksql // import "github.com/unionai/splunk-otel-go/instrumentation/database/sql/splunksql"
 
 import (
 	"context"
